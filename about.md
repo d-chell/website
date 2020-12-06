@@ -4,4 +4,4 @@ title: About Me
 ---
 
 
-<img src="../assets/profile.JPG" width="200">
+<img src="../assets/profile.jpg" width="200">
