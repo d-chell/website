@@ -35,6 +35,33 @@ code {
     color: #002b72;
 }
 
+// Polaroids
+
+.gallery{
+  display: flex;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+figure{
+  margin: 8px 0;
+  box-shadow: 2px 2px 9px 1px #888888;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+figure img{
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  margin: 0px !important;
+}
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+}
+
 // divs
 
 .pull-left {
@@ -53,12 +80,12 @@ code {
 .navbar {
     ul {
         display: inline-block;
-        margin: 0;
+        margin: 0px;
         //margin-left: 20px;
     }
     li {
         list-style-type: none;
-        margin: 0 5px 0 10px;
+        margin: 5px;
     }
 
     padding: 30px 0 20px 0;
@@ -134,10 +161,16 @@ code {
 @media (max-width: 650px) {
     .container {
         max-width: 83%;
+        transition: 0.3s ease all;
     }
     .navbar{
         ul{
-            margin-top: 5px;
+          padding: 10px 0 10px 0;
+          margin: 0;
+          display: block;
+          float: none;
+          text-align: center;
+          width: 100%;
         }
     }
 }
@@ -159,6 +192,7 @@ code {
         }
         .pull-left{
             float: none;
+
         }
         .site-title{
             width: 100%;
