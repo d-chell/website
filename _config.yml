@@ -1,13 +1,13 @@
-title: Parchment
-author: pro-panda
+title: head in the clouds
+author: dana
 subtitle: The life of a frustrated engineer
 
-url: "https://pro-panda.github.io"
-baseurl: "/parchment"
+url: "https://d-chell.dev"
+baseurl: ""
 
 footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
-footer_text: "Theme by pro-panda"
+footer_text: "modified pro-panda theme"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -18,7 +18,9 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About"
+ - name: "about"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://pro-panda.github.io/resume.pdf"
+ - name: "posts"
+   link: "allposts"
+ - name: "clouds"
+   link: "clouds"
