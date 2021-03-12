@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <div class="container">
+        {% include navbar.html %}
+        <div class="page-title">
+            {{page.title}}
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+        <div class="eggs">
+          <p>Easter eggs:</p>
+          <p>home > welcome : <a href = "https://genius.com/Aesop-rock-hello-from-the-spirit-world-lyrics">"Contained within are anecdotes, recipes, survival tips, warnings, maps, drawings, and more"</a>
+          </p>
+        </div>
+        {% include footer.html %}
+    </div>
+</body>
