@@ -1,13 +1,13 @@
-title: head in the cloud(s)
-author: dana
-subtitle: an explorative pursuit
+title: le requin
+author:
+subtitle: into the depths
 
 url: "https://d-chell.dev"
 baseurl: ""
 
 footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
-footer_text: "modified pro-panda theme"
+footer_text: "l'immobilité est la mort"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -21,6 +21,6 @@ navbar:
  - name: "about"
    link: "about"
  - name: "posts"
-   link: "allposts"
- - name: "clouds"
-   link: "clouds"
+   link: "posts"
+ - name: "projects"
+   link: "projects"
